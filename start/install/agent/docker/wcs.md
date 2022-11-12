@@ -19,7 +19,7 @@ The installation instructions also make the following assumptions about your env
 
 ## Deployment
 
-To run Portainer Agent in a Windows Container scenario, you need to execute the following commands:
+To run Portainer Agent in a Windows Container scenario, you need to execute the following commands: ERROR
 
 ```bash
 docker run -d -p 9001:9001 --name portainer_agent --restart=always -v C:\:C:\host -v C:\ProgramData\docker\volumes:C:\ProgramData\docker\volumes -v \\.\pipe\docker_engine:\\.\pipe\docker_engine portainer/agent:latest
